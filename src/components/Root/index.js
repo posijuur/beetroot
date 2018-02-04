@@ -17,8 +17,8 @@ class Root extends Component {
                 <Menu />
 
                 <Switch>
-                    <Route path = "/beetroot/counter" component = { WrapperForm } />
-                    <Route path = "/beetroot/filters" component = { WrapperTable } />
+                    <Route path = "/beetroot/signin" component = { WrapperForm } />
+                    <Route path = "/beetroot/table" component = { WrapperTable } />
                 </Switch>
             </div>
         )

@@ -76,7 +76,7 @@ const Menu = () => (
         value={1}
         style={style.colorLink}
         hoverColor="#e1f5c4"
-        containerElement={<NavLink activeStyle = {style.colorActiveLink} to="/beetroot/counter" />}
+        containerElement={<NavLink activeStyle = {style.colorActiveLink} to="/beetroot/signin" />}
         primaryText="Sign in"
       />
       <Divider />
@@ -85,7 +85,7 @@ const Menu = () => (
         value={2}
         style={style.colorLink}
         hoverColor="#e1f5c4"
-        containerElement={<NavLink activeStyle = {style.colorActiveLink} to="/beetroot/filters" />}
+        containerElement={<NavLink activeStyle = {style.colorActiveLink} to="/beetroot/table" />}
         primaryText="Programming languages"
       />
     </SelectableList>
